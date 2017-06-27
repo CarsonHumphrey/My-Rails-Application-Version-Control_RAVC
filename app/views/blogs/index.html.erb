@@ -1,3 +1,7 @@
+
+# This in the index.html.erb for the "blog"
+
+
 <p id="notice"><%= notice %></p>
 
 <h1>Blogs</h1>
@@ -18,7 +22,7 @@
         <td><%= blog.body %></td>
         <td><%= link_to 'Show', blog %></td>
         <td><%= link_to 'Edit', edit_blog_path(blog) %></td>
-        <td><%= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Delete post', blog, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
