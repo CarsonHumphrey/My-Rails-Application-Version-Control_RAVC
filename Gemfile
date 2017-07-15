@@ -54,3 +54,10 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.3'
+
+gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
+# gem 'bootstrap', '~> 4.0.0.alpha6' ---- message from me too me: the following code known as -- 'bootstrap', '~> 4.0.0.alpha6' -- is what Jordan put in his gem file and what I put
+# right above this meassage on line # 58 is what I found excatly where Jordan got his gem, it was just different for me. So I put this message in case it didn't work for me now or later
+# down the road, now to change this I need to remove all the code on line # 58 (and only that code) and simple put in it's place this -- 'bootstrap', '~> 4.0.0.alpha6' --
+# then in the terminal run -- bundle install --. then it SHOULD work....... I hope I may not have it wrong at all..... I"ll find out one way or another. This was in the video titled --
+# How to Install Bootstrap 4 into a Rails 5 Application -- on week 4.
