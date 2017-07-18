@@ -1,4 +1,10 @@
 GIT
+  remote: https://github.com/CarsonHumphrey/asterisk_view_tool
+  revision: 43d033d240bfb24cffd18e7ff84e97f7ce58a02d
+  specs:
+    asterisk_view_tool (0.1.0)
+
+GIT
   remote: https://github.com/twbs/bootstrap-rubygem
   revision: b156edfee2b9629ad4751ee2a118a04f824ef9eb
   specs:
@@ -190,6 +196,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  asterisk_view_tool!
   bootstrap!
   byebug
   coffee-rails (~> 4.2)
