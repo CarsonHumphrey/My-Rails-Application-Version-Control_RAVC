@@ -1,4 +1,4 @@
-<!-- This in the index.html.erb for the "blog" -->
+<!-- This in the index.html.erb for the "blog/blogs" -->
 <p id="notice"><%= notice %></p>
 
 <h1>Blogs</h1>
@@ -20,4 +20,4 @@
 
 <br>
 
-<%= link_to 'New Blog', new_blog_path %>
+<%= link_to 'New Blog', new_blog_path if logged_in?(:site_admin) %>
