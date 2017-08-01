@@ -29,7 +29,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 body {
   color: #fff;
@@ -188,3 +187,32 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
+/* LEAVE OUT THE LETTER "C" !!! It may cause a HUGE ERROR, and leave it out in only 2 specific places. I shouldn't touch this or the word again after this and don't need to worry about it for the rest of the course */
+#bakground {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: image-url('home_bg.png') no-repeat;
+  background-size: cover;
+}
+
+.app-footer {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
