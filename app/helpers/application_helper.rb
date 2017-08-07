@@ -17,7 +17,7 @@ module ApplicationHelper
   end
   
   def copyright_generator 
-      @copyright = AsteriskViewTool::Renderer.copyright 'Carson W H', 'All rights reserved'
+    AsteriskViewTool::Renderer.copyright 'Carson W H', 'All rights reserved'
   end
   
   def nav_items
