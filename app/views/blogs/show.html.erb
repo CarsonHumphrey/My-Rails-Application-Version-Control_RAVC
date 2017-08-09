@@ -10,7 +10,7 @@
   <%= link_to 'Edit', edit_blog_path(@blog) if logged_in?(:site_admin) %> 
   
   <P>
-    <%= @blog.body %> 
+    <%= markdown @blog.body %> 
   </P>
 
   <%= render 'comments/comment_form' %>
