@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/CarsonHumphrey/asterisk_view_tool
+  revision: 43d033d240bfb24cffd18e7ff84e97f7ce58a02d
+  specs:
+    asterisk_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -41,7 +47,6 @@ GEM
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
     arel (7.1.4)
-    asterisk_view_tool (0.1.0)
     autoprefixer-rails (7.1.2.3)
       execjs
     aws-sdk (2.10.21)
@@ -267,7 +272,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  asterisk_view_tool (~> 0.1.0)
+  asterisk_view_tool!
   bootstrap (~> 4.0.0.alpha6)
   byebug
   carrierwave (~> 1.1)
